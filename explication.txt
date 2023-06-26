@@ -1,0 +1,13 @@
+-> Les classes permettent de créer des objets et manipuler l'héritage plus simplement
+-> Elles sont définies de la même manière que les fonctions, par déclaration ou expression
+-> On est obligé de les déclarer avant (hoisting)
+-> Le contenu de la class s'appelle le corps, on y définit ses méthodes et son constructeur
+    -> constructor = Permet de créer et d'initialiser les objets crées 
+        -> Les propriétés doivent obligatoirement contenir `this` car pas d'autodétermination
+    -> static = Permet de définir la méthode en tant que static
+        ->Valeur non-fixe
+        ->Tu ne pas pas accéder aux autres valeurs 
+-> Les champs publics & privés permettent de déclarer au préalable et rend la class plus compréhensible
+    -> Les champs publics permettent qu'on déclare une variable au moment venu à l'inverse des champs privés 
+-> Le terme de "extends" permet de créer une classe qui hérite d'une autre classe. 
+    -> super remplace this
